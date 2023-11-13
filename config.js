@@ -4,22 +4,22 @@ const chalk = require("chalk");
 
 //
 global.available = true;
-global.autoReadGc = false;
+global.autoReadGc = true;
 global.autoReadAll = false;
 global.antitags = true;
 
 
 //auto functioner
-global.autoTyping = false; //auto tying in gc (true to on, false to off)
-global.autoRecord = false; //auto recording (true to on, false to off)
+global.autoTyping = true; //auto tying in gc (true to on, false to off)
+global.autoRecord = true; //auto recording (true to on, false to off)
 
 
 //
-global.Owner = ["94703892615","94767880946"];   //If you want singal number so global.Owner = ['916297175943'] Change into your number
-global.OwnerNumber = ["94703892615"];   //If you want singal number so global.Owner = ['916297175943'] Change into your number
-global.ownertag = ["94703892615"];
-global.OwnerName = "DARK DEVIL";
-global.BotName = "DDev";
+global.Owner = [254700569709];   //If you want singal number so global.Owner = ['916297175943'] Change into your number
+global.OwnerNumber = ['254700569709'];   //If you want singal number so global.Owner = ['916297175943'] Change into your number
+global.ownertag = ['254700569709'];
+global.OwnerName = "亗『ＧＥＥ』亗";
+global.BotName = "n͜͡önesence ×";
 global.packname = "🌹⃝⃘̉̉̉̉̉̉𝙳𝙳𝙴𝚅 𝚂𝚃𝙸𝙲𝙺𝙴𝚁𝚂";  //Do not change.
 global.author = "𝙱𝚈 𝙳𝙰𝚁𝙺 𝙳𝙴𝚅𝙸𝙻۝⃟̥̩̩̩̥̩";   //Do not change.
 global.BotSourceCode = "https://github.com/DARK-DEVIL-BOTZ/DDev-BOT";  //Do not change.
@@ -31,16 +31,16 @@ global.SupportGroupLink = "https://chat.whatsapp.com/GhRGdwfaMVDCoeAdzILfl";
 
 // Set Here Prefix  //
 global.prefa = ["."];
-global.openAiAPI = "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";
+global.openAiAPI = "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";
 
 
 //
 global.location = "Kaluthara City, Sri Lanka";
-global.reactmoji = "❤️";
-global.themeemoji = "🤖";
+global.reactmoji = "🚮";
+global.themeemoji = "😂";
 global.vidmenu = { url: 'https://media.tenor.com/Jdu0Ov8X2sIAAAAC/A17-Bot.mp4' };
 global.websitex = "https://github.com/malindunimsara";
-global.lolhuman = "DARK DEVIL";
+global.lolhuman = "亗『ＧＥＥ』亗";
 
 
 //
@@ -76,10 +76,10 @@ global.mess = {
     jobdone: '𝙷𝚎𝚛𝚎 𝚢𝚘𝚞 𝚐𝚘...',
     useradmin: '𝚂𝚘𝚛𝚛𝚢, 𝚘𝚗𝚕𝚢 *𝙶𝚁𝙾𝚄𝙿 𝙰𝙳𝙼𝙸𝙽𝚂* 𝚌𝚊𝚗 𝚞𝚜𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍!',
     botadmin: '𝚂𝚘𝚛𝚛𝚢, 𝚒 𝚌𝚊𝚗𝚝 𝚎𝚡𝚎𝚌𝚞𝚝𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚠𝚒𝚝𝚑𝚘𝚞𝚝 𝚋𝚎𝚒𝚗𝚐 𝚊𝚗 *𝙰𝙳𝙼𝙸𝙽* 𝚘𝚏 𝚝𝚑𝚒𝚜 𝚐𝚛𝚘𝚞𝚙!',
-    botowner: '𝙾𝚗𝚕𝚢 𝚖𝚢 *𝙾𝚆𝙽𝙴𝚁* 𝚌𝚊𝚗 𝚞𝚜𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍!',
+    botowner: '𝙾𝚗𝚕𝚢 亗『ＧＥＥ』亗 𝚌𝚊𝚗 𝚞𝚜𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍!',
     grouponly: '𝚃𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚒𝚜 𝚘𝚗𝚕𝚢 𝚖𝚊𝚍𝚎 𝚏𝚘𝚛 *𝙶𝚁𝙾𝚄𝙿𝚂*!',
     privateonly: '𝚃𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚒𝚜 𝚘𝚗𝚕𝚢 𝚖𝚊𝚍𝚎 𝚏𝚘𝚛 *𝙿𝚁𝙸𝚅𝙰𝚃𝙴 𝙲𝙷𝙰𝚃𝚂*!',
-    botonly: '𝙾𝚗𝚕𝚢 𝚝𝚑𝚎 *𝙱𝙾𝚃 𝙸𝚃𝚂𝙴𝙻𝙵* 𝚌𝚊𝚗 𝚞𝚜𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍!',
+    botonly: '𝙾𝚗𝚕𝚢 n͜͡önesence × 𝚌𝚊𝚗 𝚞𝚜𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍!',
     waiting: '𝙹𝚞𝚜𝚝 𝚆𝚊𝚒𝚝...',
     nolink: '𝙿𝚕𝚎𝚊𝚜𝚎 𝚙𝚛𝚘𝚟𝚒𝚍𝚎 𝚖𝚎 *𝙻𝙸𝙽𝙺*!',
     error: '𝙰𝚗 𝚎𝚛𝚛𝚘𝚛 𝚘𝚌𝚌𝚞𝚛𝚍!',
